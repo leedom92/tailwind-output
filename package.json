@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-output",
+  "version": "1.0.0",
+  "description": "output css with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "output": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedom92/tailwind-output.git"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Leedom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leedom92/tailwind-output/issues"
+  },
+  "homepage": "https://github.com/leedom92/tailwind-output#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}
